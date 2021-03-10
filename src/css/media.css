@@ -217,7 +217,7 @@
     }
 }
 @media screen and (max-width:320px) {
-    .home {
+    .home__content {
         left: 0;
         right: 0;
     }
