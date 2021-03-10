@@ -168,6 +168,16 @@
         margin-top: 10px;
     }
 }
+@media screen and (max-width: 668px) {
+    .section-services_top {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .section-services__box {
+        margin-top: 10px;
+    }
+}
 @media screen and (max-width: 415px) {
     .section-services_top {
         padding: 0 20px;
