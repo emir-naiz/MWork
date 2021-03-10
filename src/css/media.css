@@ -140,7 +140,7 @@
         font-size: 18px;
     }
     .footer__logo {
-        width: 112px;
+        width: 126px;
     }
     .why__description {
         text-align: center;
@@ -187,8 +187,16 @@
     .section-services__box {
         margin-top: 5px;
     }
+    .home {
+        left: 0;
+        right: 0;
+    }
 }
 @media screen and (max-width: 376px) {
+    .home {
+        left: 0;
+        right: 0;
+    }
     .home__content{
         padding: 20px 5px;
     }
@@ -205,6 +213,10 @@
     }
 }
 @media screen and (max-width:320px) {
+    .home {
+        left: 0;
+        right: 0;
+    }
     section {
         padding: 80px 20px 0;
     }

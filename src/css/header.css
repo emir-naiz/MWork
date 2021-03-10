@@ -22,6 +22,9 @@ body {
     justify-content: space-between;
     align-content: center;
 }
+.logo__img {
+    width: 80px;
+}
 .nav {
     padding-left: 50px;
 }
