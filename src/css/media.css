@@ -171,6 +171,8 @@
 @media screen and (max-width: 376px) {
     .home__content{
         padding: 20px 5px;
+        left: 0;
+        right: 0;
     }
     .title {
         font-size: 35px
