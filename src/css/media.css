@@ -112,7 +112,7 @@
         z-index: 20;
 
     }
-    .home {
+    .home__content {
         left: 0;
         right: 0;
     }
@@ -191,13 +191,13 @@
     .section-services__box {
         margin-top: 5px;
     }
-    .home {
+    .home__content {
         left: 0;
         right: 0;
     }
 }
 @media screen and (max-width: 376px) {
-    .home {
+    .home__content {
         left: 0;
         right: 0;
     }
