@@ -1,0 +1,46 @@
+.recruiting {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 100px;
+}
+.recruiting_top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 80px;
+   
+}
+.recruiting_bottom {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+.text__item {
+    width: 110px;
+    text-align: center;
+    margin-top: 10px;
+}
+.icon__item {
+    margin-left: 15px;
+    height: 80px;
+    width: 80px;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.icon__item:hover {
+    background-color: rgb(248, 190, 190);
+}
+.recruiting__description {
+    font-size: 20px;
+    text-align: center;
+    
+}
+.little__bold {
+    font-weight: 600;
+    margin-top: 30px;
+}
+
