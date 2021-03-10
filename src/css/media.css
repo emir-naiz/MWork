@@ -171,8 +171,6 @@
 @media screen and (max-width: 376px) {
     .home__content{
         padding: 20px 5px;
-        left: 0;
-        right: 0;
     }
     .title {
         font-size: 35px
@@ -187,9 +185,9 @@
     }
 }
 @media screen and (max-width:320px) {
-    /* section {
+    section {
         padding: 80px 20px 0;
-    } */
+    }
     .section-about__text {
         font-size: 15px;
     }
@@ -231,5 +229,4 @@
         width: 180px;
         text-align: center;
     }
-}
 }

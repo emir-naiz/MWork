@@ -22,6 +22,8 @@
     padding: 40px;
     position: absolute;
     top: 350px;
+    left: 0;
+    right: 0;
 }
 .home .container{
     display: flex;
