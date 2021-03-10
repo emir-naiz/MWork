@@ -112,6 +112,10 @@
         z-index: 20;
 
     }
+    .home {
+        left: 0;
+        right: 0;
+    }
     .home .home__title {
         font-size: 200%;
     }
