@@ -9,9 +9,8 @@
 }
 
 .section-services_top {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(198px, 1fr));
-    grid-gap: 20px;
+    display: flex;
+    justify-content: space-between;
     padding: 0 20px;
 }
 
