@@ -1,0 +1,38 @@
+.footer {
+    background: #7B8A8B
+}
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+}
+.footer__box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.footer__description {
+    width: 200px;
+    margin-left: 10px;
+    font-size: 19px;
+}
+.problem{
+    width: 400px;
+}
+.footer__logo {
+    padding: 20px;
+    width: 10%;
+}
+.footer__img {
+    height: 40px;
+    width: 40px;
+}
+.up-arrow{
+    display: none; 
+    position: fixed;
+    left: 40px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;    
+ }

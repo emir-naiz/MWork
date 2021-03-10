@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="10mm" height="10mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1000 1000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#D61515}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2649062349520">
+   <g>
+    <g>
+     <polygon class="fil0" points="372,251 388,251 388,277 304,277 304,193 388,193 388,220 372,220 372,209 320,209 320,261 372,261 "/>
+     <polygon class="fil0" points="331,227 337,220 362,244 410,207 417,216 364,256 362,256 "/>
+    </g>
+    <rect class="fil0" x="415" y="232" width="165" height="31"/>
+    <g>
+     <polygon class="fil0" points="372,377 388,377 388,404 304,404 304,320 388,320 388,347 372,347 372,336 320,336 320,388 372,388 "/>
+     <polygon class="fil0" points="331,354 337,346 362,370 410,334 417,343 364,383 362,383 "/>
+    </g>
+    <rect class="fil0" x="415" y="359" width="289" height="31"/>
+    <g>
+     <polygon class="fil0" points="372,511 388,511 388,538 304,538 304,454 388,454 388,481 372,481 372,470 320,470 320,522 372,522 "/>
+     <polygon class="fil0" points="331,488 337,480 362,504 410,468 417,477 364,517 362,517 "/>
+    </g>
+    <rect class="fil0" x="415" y="493" width="289" height="31"/>
+    <g>
+     <polygon class="fil0" points="372,648 388,648 388,675 304,675 304,591 388,591 388,617 372,617 372,607 320,607 320,659 372,659 "/>
+     <polygon class="fil0" points="331,625 337,617 362,641 410,605 417,614 364,654 362,654 "/>
+    </g>
+    <rect class="fil0" x="415" y="630" width="289" height="31"/>
+    <polygon class="fil0" points="372,772 388,772 388,799 304,799 304,715 388,715 388,772 372,772 372,731 320,731 320,783 372,783 "/>
+    <rect class="fil0" x="415" y="754" width="289" height="31"/>
+   </g>
+   <path class="fil0" d="M302 111l358 0c43,0 143,124 143,168l0 517c0,43 -35,78 -78,78l-422 0c-43,0 -78,-35 -78,-78l0 -607c0,-43 35,-78 78,-78zm-4 37l366 0c25,0 110,110 110,135l0 508c0,25 -21,46 -46,46l-431 0c-25,0 -46,-21 -46,-46l0 -597c0,-25 21,-46 46,-46z"/>
+   <path class="fil0" d="M578 111l81 0 143 168 0 50 -151 0c-40,0 -73,-33 -73,-73l0 -145z"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,221 @@
+@media screen and (max-width: 1024px) {
+    /* Header */
+    .title,
+    .section-services__title,
+    .section-about__title{
+        font-size: 39px;
+    }
+    .section-services_top {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(164px, 1fr));
+        gap: 20px;
+        padding: 0px 20px;
+    }
+    .header{
+        overflow: hidden;
+    }
+    .nav-btns{
+        margin-right: 100px;
+    }
+    .header.nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        background: #e5e5e5;
+        color: #090F3F;
+        z-index: 2;
+        text-align: center;
+        padding-top: 100px;
+        transform: translateX(200%);
+        transition: 0.5s;
+    }
+
+    .header.nav.nav_active {
+      
+        transform: translateX(0);
+
+    }
+    .nav__list{
+        flex-direction: column;
+    }
+    .nav__item{
+        margin-top: 29px;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        opacity: 1;
+    }
+    .header .header__burger {
+        width: 30px;
+        height: 30px;
+        position: fixed;
+        top: 20px;
+        right: 50px;
+        cursor: pointer;
+        z-index: 3;
+        transition: all 0.8s ease 0s;
+    }
+
+    .header .header__burger.header__burger_active .burger__span {
+        background: none;
+    }
+
+    .header .header__burger.header__burger_active .burger__span:before {
+        transform: rotate(45deg);
+        top: 0;
+        z-index: 20;
+
+    }
+
+    .header .header__burger.header__burger_active .burger__span:after {
+        transform: rotate(-45deg);
+        bottom: 0;
+        z-index: 20;
+    }
+
+    .header .burger__span {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 100%;
+        height: 2px;
+        background: #000000;
+        transition: 0.5s;
+        z-index: 20;
+
+    }
+
+    .header .burger__span:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000000;
+        top: -11px;
+        transition: 0.5s;
+        z-index: 20;
+
+    }
+
+    .header .burger__span:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000000;
+        bottom: -11px;
+        transition: 0.5s;
+        z-index: 20;
+
+    }
+    .home .home__title {
+        font-size: 200%;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .about__description {
+        width: 150px;
+        text-align: center;
+        margin-left: 90px;
+    }
+    .services__box {
+        margin-bottom: 20px;
+    }
+    .footer__content {
+        justify-content: space-around;
+        margin-top: 0;
+    }
+    .footer__description {
+        width: 150px;
+        margin-left: 0;
+        font-size: 18px;
+    }
+    .footer__description-other {
+        width: 150px;
+        font-size: 18px;
+    }
+    .footer__logo {
+        width: 112px;
+    }
+    .why__description {
+        text-align: center;
+    }
+    .why__text {
+        font-size: 15px;
+    }
+    .img__text {
+        left: 32px;
+    }
+    .img__text2 {
+        left: 344px;
+    }
+    .img__text3 {
+        left: 658px;
+    }
+}
+@media screen and (max-width: 376px) {
+    .home__content{
+        padding: 20px 5px;
+    }
+    .title {
+        font-size: 35px
+    }
+    .section-services_top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:320px) {
+    section {
+        padding: 80px 20px 0;
+    }
+    .section-about__text {
+        font-size: 15px;
+    }
+    .section-about__title {
+        margin-bottom: 20px;
+        font-size: 28px;
+
+    }
+    .section-services__title,
+    .title {
+        font-size: 28px;
+    }
+    .why__content {
+        display: block;
+    }
+    .why__text {
+        padding-top: 60px;
+    }
+    .home__content {
+        padding: 20px 5px;
+    }
+    .text__item {
+        font-size: 12px;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .scroll {
+        width: 500px;
+        margin-left: 60px;
+    }
+    .footer__box {
+        margin-bottom: 20px;
+    }
+    .footer__logo {
+        width: 112px;
+    }
+    .footer__description {
+        width: 180px;
+        text-align: center;
+    }
+}
+}
