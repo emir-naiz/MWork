@@ -173,9 +173,9 @@
     }
 }
 @media screen and (max-width:320px) {
-    section {
+    /* section {
         padding: 80px 20px 0;
-    }
+    } */
     .section-about__text {
         font-size: 15px;
     }
