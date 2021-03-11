@@ -23,7 +23,7 @@ body {
     align-content: center;
 }
 .logo__img {
-    width: 80px;
+    width: 100px;
 }
 .nav {
     padding-left: 50px;
@@ -36,6 +36,7 @@ body {
 .nav__list {
     display: flex;
     list-style-type: none;
+    margin-top: 10px;
 }
 
 .nav__link {
@@ -55,6 +56,9 @@ body {
 }
 .header .nav__link:hover:before {
     width: 100%;
+}
+.nav_btns {
+    margin-top: 10px;
 }
 .nav__btn{
     margin-right: 20px;
